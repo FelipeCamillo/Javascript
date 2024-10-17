@@ -12,20 +12,27 @@
     </header>
     <section>
         <div>
-
+            <p id="ano">
+                Ano de Nascimento: <input type="number" name="txtano" id="txtano">
+            </p>
+            <p id="sexo">
+                Sexo: <input type="radio" name="sexo" id="mas" checked>
+                <label for="mas">Masculino</label> <input type="radio" name="sexo" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificacao()">
+            </p>
         </div>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
         </div>
     </section>
     <footer>
-
+        <p>&copy CursoemVideo</p>
     </footer>
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
